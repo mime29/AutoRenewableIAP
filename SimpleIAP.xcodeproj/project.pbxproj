@@ -12,16 +12,18 @@
 		73F761E41F38685D00D6504B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73F761E21F38685D00D6504B /* Main.storyboard */; };
 		73F761E61F38685D00D6504B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 73F761E51F38685D00D6504B /* Assets.xcassets */; };
 		73F761E91F38685D00D6504B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73F761E71F38685D00D6504B /* LaunchScreen.storyboard */; };
+		73F761F11F38698900D6504B /* AutoRenewableIAP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73F761F01F38698900D6504B /* AutoRenewableIAP.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		73F761DB1F38685C00D6504B /* SimpleIAP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleIAP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		73F761DB1F38685C00D6504B /* AutoRenewableIAP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutoRenewableIAP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		73F761DE1F38685D00D6504B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		73F761E01F38685D00D6504B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		73F761E31F38685D00D6504B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		73F761E51F38685D00D6504B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		73F761E81F38685D00D6504B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		73F761EA1F38685D00D6504B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		73F761F01F38698900D6504B /* AutoRenewableIAP.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AutoRenewableIAP.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,7 +40,7 @@
 		73F761D21F38685C00D6504B = {
 			isa = PBXGroup;
 			children = (
-				73F761DD1F38685C00D6504B /* SimpleIAP */,
+				73F761DD1F38685C00D6504B /* AutoRenewableIAP */,
 				73F761DC1F38685C00D6504B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -46,30 +48,32 @@
 		73F761DC1F38685C00D6504B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				73F761DB1F38685C00D6504B /* SimpleIAP.app */,
+				73F761DB1F38685C00D6504B /* AutoRenewableIAP.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		73F761DD1F38685C00D6504B /* SimpleIAP */ = {
+		73F761DD1F38685C00D6504B /* AutoRenewableIAP */ = {
 			isa = PBXGroup;
 			children = (
 				73F761DE1F38685D00D6504B /* AppDelegate.swift */,
 				73F761E01F38685D00D6504B /* ViewController.swift */,
+				73F761F01F38698900D6504B /* AutoRenewableIAP.swift */,
 				73F761E21F38685D00D6504B /* Main.storyboard */,
 				73F761E51F38685D00D6504B /* Assets.xcassets */,
 				73F761E71F38685D00D6504B /* LaunchScreen.storyboard */,
 				73F761EA1F38685D00D6504B /* Info.plist */,
 			);
+			name = AutoRenewableIAP;
 			path = SimpleIAP;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		73F761DA1F38685C00D6504B /* SimpleIAP */ = {
+		73F761DA1F38685C00D6504B /* AutoRenewableIAP */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 73F761ED1F38685D00D6504B /* Build configuration list for PBXNativeTarget "SimpleIAP" */;
+			buildConfigurationList = 73F761ED1F38685D00D6504B /* Build configuration list for PBXNativeTarget "AutoRenewableIAP" */;
 			buildPhases = (
 				73F761D71F38685C00D6504B /* Sources */,
 				73F761D81F38685C00D6504B /* Frameworks */,
@@ -79,9 +83,9 @@
 			);
 			dependencies = (
 			);
-			name = SimpleIAP;
+			name = AutoRenewableIAP;
 			productName = SimpleIAP;
-			productReference = 73F761DB1F38685C00D6504B /* SimpleIAP.app */;
+			productReference = 73F761DB1F38685C00D6504B /* AutoRenewableIAP.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -114,7 +118,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				73F761DA1F38685C00D6504B /* SimpleIAP */,
+				73F761DA1F38685C00D6504B /* AutoRenewableIAP */,
 			);
 		};
 /* End PBXProject section */
@@ -139,6 +143,7 @@
 			files = (
 				73F761E11F38685D00D6504B /* ViewController.swift in Sources */,
 				73F761DF1F38685D00D6504B /* AppDelegate.swift in Sources */,
+				73F761F11F38698900D6504B /* AutoRenewableIAP.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,7 +271,7 @@
 				DEVELOPMENT_TEAM = 2BA4AVWAMV;
 				INFOPLIST_FILE = SimpleIAP/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = mime.SimpleIAP;
+				PRODUCT_BUNDLE_IDENTIFIER = mime.AutoRenewableIAP;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -279,7 +284,7 @@
 				DEVELOPMENT_TEAM = 2BA4AVWAMV;
 				INFOPLIST_FILE = SimpleIAP/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = mime.SimpleIAP;
+				PRODUCT_BUNDLE_IDENTIFIER = mime.AutoRenewableIAP;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -297,13 +302,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		73F761ED1F38685D00D6504B /* Build configuration list for PBXNativeTarget "SimpleIAP" */ = {
+		73F761ED1F38685D00D6504B /* Build configuration list for PBXNativeTarget "AutoRenewableIAP" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				73F761EE1F38685D00D6504B /* Debug */,
 				73F761EF1F38685D00D6504B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

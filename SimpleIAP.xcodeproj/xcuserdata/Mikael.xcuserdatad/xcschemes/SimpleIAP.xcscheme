@@ -15,8 +15,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "73F761DA1F38685C00D6504B"
-               BuildableName = "SimpleIAP.app"
-               BlueprintName = "SimpleIAP"
+               BuildableName = "AutoRenewableIAP.app"
+               BlueprintName = "AutoRenewableIAP"
                ReferencedContainer = "container:SimpleIAP.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -33,8 +33,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "73F761DA1F38685C00D6504B"
-            BuildableName = "SimpleIAP.app"
-            BlueprintName = "SimpleIAP"
+            BuildableName = "AutoRenewableIAP.app"
+            BlueprintName = "AutoRenewableIAP"
             ReferencedContainer = "container:SimpleIAP.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -56,8 +56,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "73F761DA1F38685C00D6504B"
-            BuildableName = "SimpleIAP.app"
-            BlueprintName = "SimpleIAP"
+            BuildableName = "AutoRenewableIAP.app"
+            BlueprintName = "AutoRenewableIAP"
             ReferencedContainer = "container:SimpleIAP.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -75,8 +75,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "73F761DA1F38685C00D6504B"
-            BuildableName = "SimpleIAP.app"
-            BlueprintName = "SimpleIAP"
+            BuildableName = "AutoRenewableIAP.app"
+            BlueprintName = "AutoRenewableIAP"
             ReferencedContainer = "container:SimpleIAP.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
